@@ -1,0 +1,6 @@
+ダンプファイル（kadai2）インポート後にWebContent/META-INF/context.xmlの
+username="jsb○○"
+password="jsb○○"
+は自分のDBで使ってる出席番号に変えてください
+
+プッシュするときcontext.xmlのチェックは外してプッシュして
