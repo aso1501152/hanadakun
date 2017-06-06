@@ -9,6 +9,7 @@
 <body>
 <form method="POST" action="LoginServlet">
 <input type="submit" value="生徒ログイン">
+d
 </form>
 </body>
 </html>
