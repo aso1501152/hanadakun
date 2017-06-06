@@ -15,8 +15,26 @@ comm:科目登録:ゼミ科目の登録画面
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>週間スケジュール</h1>
-
-
+	<h1>科目登録</h1>
+		<div class="container">
+			<div class="col-sm-11">
+				<table class="table table-bordered table-hover" cellpadding="0">
+			<thead>
+				<tr>
+					<td class="active">科目名</td>
+					<td class="active">学生一覧</td>
+					<td class="active">削除</td>
+				</tr>
+			</thead>
+			<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+			</tbody>
+		</table>
+			</div>
+		</div>
 </body>
 </html>
