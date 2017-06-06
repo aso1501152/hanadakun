@@ -7,14 +7,8 @@
 <title>Welcome</title>
 </head>
 <body>
-
 <form method="POST" action="LoginServlet">
 <input type="submit" value="生徒ログイン">
 </form>
-a
-<form action="POST" action="LoginServlet">
-<input type="submit" value="管理者ログイン"/>
-</form>
-
 </body>
 </html>
