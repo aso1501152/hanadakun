@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>管理者ログイン</title>
+<title></title>
 </head>
 <body>
-
+生徒ログイン成功
 </body>
 </html>

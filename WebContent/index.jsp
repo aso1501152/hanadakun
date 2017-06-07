@@ -31,7 +31,8 @@ comm:インデックスページ
 				<a href="<%=request.getContextPath()%>/ToG203">G203</a>
 				<button type="button" class="btn btn-primary">テストボタン</button>
 				<%--  --%>
-
+				<br><br>
+				<a href="<%=request.getContextPath()%>/ToG101">生徒用ログインページ</a>
 				<%--  --%>
 
 				<%--  --%>
