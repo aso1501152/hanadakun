@@ -16,6 +16,8 @@ import java.sql.ResultSet;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
+import model.Student;
+
 public class StudentDAO {
 	// データソース
 	DataSource ds = null;
@@ -58,15 +60,16 @@ public class StudentDAO {
 
 	/**
 	 * userテーブルからログインするユーザを探す
+	 */
 
-	public User selectLoginUser(String userID, String password) {
+	public Student selectLoginStudent(String userID, String password) {
 		// ログインユーザ情報を格納
-		User us = new User();
+		Student st = new Student();
 		try {
 			// DB接続
 			connection();
 			// SQL文設定の準備・SQL文の実行
-			String sql = "SELECT * FROM user WHERE userid = ? AND password = ?;";
+			String sql = "SELECT * FROM user WHERE student_id = ? AND password = ?;";
 
 			stmt = con.prepareStatement(sql);// sql文をプリコンパイルした状態で保持
 			// ユーザの入力値を代入
@@ -80,12 +83,11 @@ public class StudentDAO {
 			// データない場合はcatchに飛ぶ
 			rs.next();
 
-			// DBから取得したデータをuserオブジェクトに格納
-			us.setUserid(rs.getString("userid"));
-			us.setPassword(rs.getString("password"));
-			us.setGrant(rs.getString("grant"));
+			// DBから取得したデータをstudentオブジェクトに格納
+			st.setStudent_id(rs.getString("studnet_id"));
+			st.setPassword(rs.getString("password"));
 		} catch (Exception e) {
-			us = null;
+			st = null;
 			System.out.println("muri");
 		} finally {
 			try {
@@ -93,6 +95,7 @@ public class StudentDAO {
 			} catch (Exception e) {
 		}
 	}
-	 */
+		return st;
+}
 }
 
