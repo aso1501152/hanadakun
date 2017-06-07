@@ -6,8 +6,8 @@
 			name="jdbc/MySQL"
 			type="javax.sql.DataSource"
 			url="jdbc:mysql://localhost/kadai2"
-			username="jsb23"
-			password="jsb23"
+			username="root"
+			password="root"
 	/>
 
 </Context>
