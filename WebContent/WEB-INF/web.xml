@@ -10,20 +10,7 @@
     <servlet-name>LoginStudent</servlet-name>
     <servlet-class>servlet.LoginStudent</servlet-class>
   </servlet>
-  <servlet-mapping>
-    <servlet-name>LoginStudent</servlet-name>
-    <url-pattern>/LoginStudent</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ToG101</display-name>
-    <servlet-name>ToG101</servlet-name>
-    <servlet-class>servlet.ToG101</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ToG101</servlet-name>
-    <url-pattern>/ToG101</url-pattern>
-  </servlet-mapping>
+
   <servlet>
     <description></description>
     <display-name>ToStudentLogin</display-name>
