@@ -22,8 +22,21 @@ comm:インデックスページ
 	<h1></h1>
 	</div>
 	<div class="container">
-		<p>インデックス</p>
-		<a href="<%=request.getContextPath()%>/ToGTest" class="navbar-link">jsp確認用にサーブレットのリンクに使ってください</a>
+	<div class="col-sm-12">	aaaa</div>
+		<div class="col-sm-10">
+			<p>インデックス</p>
+				<a href="<%=request.getContextPath()%>/ToGTest" class="navbar-link">jsp確認用にサーブレットのリンクに使ってください</a>
+				<%--  --%>
+				<a href="<%=request.getContextPath()%>/ToG203">G203</a>
+				<%--  --%>
+
+				<%--  --%>
+
+				<%--  --%>
+
+				<%--  --%>
+				<%--  --%>
+		</div>
 	</div>
 </body>
 </html>

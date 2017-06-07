@@ -15,7 +15,7 @@ comm:科目登録:ゼミ科目の登録画面
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>科目登録</h1>
+	<h1>科目一覧</h1>
 		<div class="container">
 			<div class="col-sm-11">
 				<table class="table table-bordered table-hover" cellpadding="0">
