@@ -3,6 +3,11 @@ username="jsb○○"
 password="jsb○○"
 は自分のDBで使ってる出席番号に変えてください
 
+ブートストラップURL
+<link rel="stylesheet" href="<%=request.getContextPath()%>/bootstrap.min.css" />
+
+
+
 プッシュするときcontext.xmlのチェックは外してプッシュして
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
