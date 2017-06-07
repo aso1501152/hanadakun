@@ -23,7 +23,7 @@ comm:インデックスページ
 	</div>
 	<div class="container">
 		<p>インデックス</p>
-		<a href="<%=request.getContextPath()%>/" class="navbar-link">jsp確認用にサーブレットのリンクに使ってください</a>
+		<a href="<%=request.getContextPath()%>/ToGTest" class="navbar-link">jsp確認用にサーブレットのリンクに使ってください</a>
 	</div>
 </body>
 </html>
