@@ -10,7 +10,7 @@ comm:インデックスページ
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="bootstrap.min.css" />
+<link rel="stylesheet" href="<%=request.getContextPath()%>/bootstrap.min.css" />
 <title>Insert title here</title>
 <script type="text/javascript">
 </script>
@@ -26,8 +26,10 @@ comm:インデックスページ
 		<div class="col-sm-10">
 			<p>インデックス</p>
 				<a href="<%=request.getContextPath()%>/ToGTest" class="navbar-link">jsp確認用にサーブレットのリンクに使ってください</a>
+
 				<%--  --%>
 				<a href="<%=request.getContextPath()%>/ToG203">G203</a>
+				<button type="button" class="btn btn-primary">テストボタン</button>
 				<%--  --%>
 
 				<%--  --%>
