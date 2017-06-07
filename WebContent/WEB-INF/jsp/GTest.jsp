@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+リンク遷移テストページ（ToGTest.javaを通ってきました）<br>
+こんな感じで
 </body>
 </html>
