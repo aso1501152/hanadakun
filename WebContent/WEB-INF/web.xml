@@ -4,14 +4,15 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+
   <servlet>
     <description></description>
-    <display-name>LoginStudent</display-name>
-    <servlet-name>LoginStudent</servlet-name>
-    <servlet-class>servlet.LoginStudent</servlet-class>
+    <display-name>ToStudentLogin</display-name>
+    <servlet-name>ToStudentLogin</servlet-name>
+    <servlet-class>servlet.ToStudentLogin</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>LoginStudent</servlet-name>
-    <url-pattern>/LoginStudent</url-pattern>
+    <servlet-name>ToStudentLogin</servlet-name>
+    <url-pattern>/ToStudentLogin</url-pattern>
   </servlet-mapping>
 </web-app>
