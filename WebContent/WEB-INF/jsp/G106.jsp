@@ -9,22 +9,24 @@
 <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<p>以下の内容でよろしいでしょうか</p>
-	<form action="" method="post">
-		<div align="center">
-
-			<c:if test="${!empty Subject }">
+	<h1>履修履歴</h1>
+	<div align="center">
+		<table border=1>
+			<c:if test="${!empty ${Subjects }">
+				<c:forEach var="Subject" items="${Subjects }">
+				<th><c:out value="${Subject.year }"></c:out></th>
+				<th></th>
 				<c:out value="・科目名：${Subject.subject1 }"></c:out>
 				<c:out value="・科目名：${Subject.subject2 }"></c:out>
+				</c:forEach>
 			</c:if>
+		</table>
 
-		</div>
+	</div>
 
-		<c:if test="${empty Subject }">
-			<c:out value="${message }" />
-		</c:if>
-		<input type="button" Value="戻る" onClick="history.go(-1);"> <input
-			type="submit" value="完了">
-	</form>
+	<c:if test="${empty ${Subjects }">
+		<c:out value="${message }" />
+	</c:if>
+	<input type="button" Value="戻る" onClick="history.go(-1);">
 </body>
 </html>
