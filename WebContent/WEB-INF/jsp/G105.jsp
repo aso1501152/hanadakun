@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ include file="/WEB-INF/jsp/common.jsp" %>
+	pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/common.jsp"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -9,16 +9,22 @@
 <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<p>以下の内容でよろしいでしょうか</p>
-<div align="center">
+	<p>以下の内容でよろしいでしょうか</p>
+	<form action="" method="post">
+		<div align="center">
 
-<c:if test="${!empty Subject }">
-<c:out value=""></c:out>
-</c:if>
+			<c:if test="${!empty Subject }">
+				<c:out value="・科目名：${Subject.subject1 }"></c:out>
+				<c:out value="・科目名：${Subject.subject1 }"></c:out>
+			</c:if>
 
-</div>
-<c:if test="${empty Subject }">
-			<c:out value="${message }"/>
+		</div>
+
+		<c:if test="${empty Subject }">
+			<c:out value="${message }" />
 		</c:if>
+		<input type="button" Value="戻る" onClick="history.go(-1);"> <input
+			type="submit" value="完了">
+	</form>
 </body>
 </html>
